@@ -18,7 +18,7 @@ const ItemProductsList = ({ product, id }) => {
     return (
         <Link
             href={`product/${product.id}`}
-            className="border-2 rounded-md group overflow-hidden"
+            className="border-2 rounded-md group overflow-hidden hover:scale-105"
         >
             <Toaster position="top-center" reverseOrder={false} />
             <div className="relative w-full h-64">

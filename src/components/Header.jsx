@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Link from "next/link";
 import React from "react";
@@ -10,8 +10,11 @@ const Header = () => {
     return (
         <header className="sticky top-0 z-10 shadow bg-white">
             <div className="mx-auto flex justify-between container py-5 px-10">
-                <Link href="/">EpicStore</Link>
+                <Link className="text-xl font-bold tracking-widest" href="/">
+                    EpicStore
+                </Link>
                 <Link
+                    title="Go to cart"
                     className="space-x-1 flex hover:underline hover:text-blue-500 items-center"
                     href="/cart"
                 >
