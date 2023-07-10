@@ -49,7 +49,6 @@ const ListCart = () => {
 
     return (
         <div>
-            <Toaster />
             {cartCount === 0 ? (
                 <p>
                     Your Cart is empty. Checkout our awesome products{" "}

@@ -24,7 +24,6 @@ const ProductDetailPage = ({ product }) => {
 
     return (
         <div className="container lg:max-w-screen-lg mx-auto py-12 px-6">
-            <Toaster />
             <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-12">
                 <div className="relative w-72 h-72 sm:w-96 sm:h-96 border">
                     <Image

@@ -1,5 +1,6 @@
 import ListProducts from "@/components/products/ListProducts";
 import { stripe } from "@/utils/stripe";
+import Head from "next/head";
 
 export const metadata = {
     title: "Epic Store",
@@ -29,6 +30,9 @@ export default async function Home() {
 
     return (
         <div>
+            <Head>
+            <link rel="icon" href="./favicon.ico" sizes="any" />
+            </Head>
             <ListProducts products={products} />
         </div>
     );

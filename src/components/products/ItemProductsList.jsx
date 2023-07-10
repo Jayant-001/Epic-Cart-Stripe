@@ -20,7 +20,7 @@ const ItemProductsList = ({ product, id }) => {
             href={`product/${product.id}`}
             className="border-2 rounded-md group overflow-hidden hover:scale-105"
         >
-            <Toaster position="top-center" reverseOrder={false} />
+            {/* <Toaster position="top-center" reverseOrder={false} /> */}
             <div className="relative w-full h-64">
                 <Image
                     src={product.image}
